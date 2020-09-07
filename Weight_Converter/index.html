@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">   
+</head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-12">      
+                <h1 class="display-4 text-center">Weight Converter</h1>
+            <!-- Input area -->
+            <form>
+                <div class="form-group mt-4 mb-4">
+                    <!-- Input -->
+                    <input id="input" type="number" class="form-control form-contorl-md">
+                </div>
+            </form>
+            <!-- Ouput Conversions -->
+            <div id="output">
+                <!-- Gram -->
+                <div class="card text-white bg-primary mb-3">
+                    <div class="card-body">
+                      <h3 class="card-text">Gram</h3>
+                      <div id="gram"></div>
+                    </div>
+                  </div>
+                  <!-- Kilogram -->
+                  <div class="card text-white bg-danger mb-3">
+                    <div class="card-body">          
+                      <h3 class="card-text">Kilogram:</h3>
+                      <div id="kilogram"></div>
+                    </div>
+                  </div>
+                  <!-- Ounces -->
+                  <div class="card text-white bg-warning mb-3">
+                    <div class="card-body">
+                      <h3 class="card-text">Ounces:</h3>
+                      <div id="ounces"></div>
+                    </div>
+                  </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+ </body>
+</html>
